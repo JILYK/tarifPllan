@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "currency": "RUB",
+  "periodDays": 30,
+  "title": "Тарифы FannPay",
+  "notice": "ПРИМЕР: условные цены и состав. Отредактируйте их перед публикацией. Подключение согласуется с поддержкой.",
+  "plans": [
+    { "id": "start", "name": "Старт", "price": 299, "description": "Для начала работы с арендой аккаунтов.", "features": ["Управление аккаунтами и арендами", "Проверка фото и команды покупателей", "Клуб лояльности"], "includedAddons": [] },
+    { "id": "business", "name": "Бизнес", "price": 699, "description": "Для регулярных продаж и расширенной статистики.", "recommended": true, "features": ["Все возможности Старт", "Статистика продаж", "Несколько продавцов FunPay"], "includedAddons": ["multiple_sellers"] },
+    { "id": "pro", "name": "Профессиональный", "price": 1299, "description": "Аренды и работа с поставщиками в одной панели.", "features": ["Все возможности Бизнес", "Раздел Поставщики", "Приоритетная поддержка"], "includedAddons": ["multiple_sellers", "suppliers", "priority_support"] }
+  ],
+  "addons": [
+    { "id": "suppliers", "name": "Поставщики", "price": 299, "description": "Отдельный доступ к разделу поставщиков, включая KoSell." },
+    { "id": "multiple_sellers", "name": "Несколько продавцов", "price": 199, "description": "Работа с несколькими продавцами FunPay." },
+    { "id": "priority_support", "name": "Приоритетная поддержка", "price": 199, "description": "Приоритетная обработка обращений." }
+  ]
+}
